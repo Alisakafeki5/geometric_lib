@@ -69,3 +69,9 @@ def area(a):
 def perimeter(a, b, c):
 ```
 > Пример вызова: area(3, 4, 5) => 12
+
+# Changelog
+- [Added rectangle.py] (https://github.com/smartiqaorg/geometric_lib/commit/7cf0fcb96ba30339e3bdb15186d5389d06a461cb)
+- [Added triangle.py] (https://github.com/smartiqaorg/geometric_lib/commit/a020408c3111d829ab65755430a6e2bf92193f60)
+- [Fixed rectangle.py] (https://github.com/smartiqaorg/geometric_lib/commit/7cf0fcb96ba30339e3bdb15186d5389d06a461cb)
+- [Added documentation] (https://github.com/smartiqaorg/geometric_lib/commit/67fea0d8ced3ecd9e481680d18318b6dab2ec76c)
