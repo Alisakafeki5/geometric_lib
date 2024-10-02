@@ -1,4 +1,4 @@
-
+5
 def area(a):
     return a * a
 
