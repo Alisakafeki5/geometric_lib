@@ -1,4 +1,4 @@
-name: CI
+name: CI/CD
 
 on:
   push:
@@ -23,7 +23,6 @@ jobs:
       - name: Install dependencies
         run: |
           python.exe -m pip install --upgrade pip
-          # Add other dependencies here if needed
 
       - name: Run tests
-        run: python.exe -m unittest rectangle.py
+        run: python.exe -m unittest tests.py
