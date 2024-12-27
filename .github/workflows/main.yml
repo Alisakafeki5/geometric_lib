@@ -25,4 +25,4 @@ jobs:
           python.exe -m pip install --upgrade pip
 
       - name: Run tests
-        run: python.exe -m unittest tests.py
+        run: python.exe -m unittest discover -s tests -p "*.py"
